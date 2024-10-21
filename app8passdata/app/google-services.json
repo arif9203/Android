@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383021061371",
+    "project_id": "app8-pass-data",
+    "storage_bucket": "app8-pass-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383021061371:android:dc7a09f2cfdb41c60dcc5e",
+        "android_client_info": {
+          "package_name": "com.example.app8passdata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtlgzguBpSxkTmtL47d94uaGP1acZJuRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

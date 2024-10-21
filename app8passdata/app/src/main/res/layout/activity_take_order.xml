@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_margin="15dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My Cafe" />
+
+    <EditText
+        android:id="@+id/tV1"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:hint="Order "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/tV2"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:hint="Order "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:hint="Order "
+        android:id="@+id/tV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:hint="Order "
+        android:id="@+id/tV4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:hint="Order "
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Now" />
+
+</LinearLayout>

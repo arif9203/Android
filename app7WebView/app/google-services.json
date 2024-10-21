@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229721165412",
+    "project_id": "app7-web-view",
+    "storage_bucket": "app7-web-view.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229721165412:android:758ef0a8a73b44d4525971",
+        "android_client_info": {
+          "package_name": "com.example.app7webview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBncKrTk85siY7NNQWhB1TYy2HboErX9vs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/printContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Vehicle Number Input -->
+    <EditText
+        android:id="@+id/etVehicleNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Vehicle Number"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Vehicle Type Dropdown -->
+    <Spinner
+        android:id="@+id/spinnerVehicleType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Fare Display -->
+    <TextView
+        android:id="@+id/tvFare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fare: $0"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Print Button -->
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Print"
+        android:padding="12dp"/>
+
+</LinearLayout>
